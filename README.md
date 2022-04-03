@@ -1,5 +1,6 @@
 # Create a Docker image to run JupyterLab with C++
 
+
 ## Build the image
 - Install docker in your system
 - Build the Dockerfile in this repository with the following command:
@@ -19,3 +20,8 @@
     - Open the link in your browser and you will see JupyerLab:
     -  ![screenshot of jupyterlab](./jupyterlab.png)
     -  Double click the `work` icon at the left pane and you will see the files and directories in your host.
+
+
+
+
+> Note: If you only want to run GCC directly in a linux machine then you may want to use the GCC image, e.g.: `docker container run --rm -it -v "$(pwd)":/usr/src gcc`, this will open a linux machine with gcc installed, here you can use commands like `g++ -std=c++20 myfile.cpp -o executable_of_myfile`.
