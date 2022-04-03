@@ -1,4 +1,4 @@
-# Create an image to run JupyterLab with C++
+# Create a Docker image to run JupyterLab with C++
 
 ## Build the image
 - Install docker in your system
