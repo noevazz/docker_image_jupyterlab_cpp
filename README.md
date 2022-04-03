@@ -12,8 +12,10 @@
   - Note the command will bind your current directory (pwd) to the container, this is useful to save your files in your host or if you want to pass existing files in your host to the container.
 
 
-## Open JupyerLab
+## Open JupyterLab
 - Once you run the container you will see link similar to the one below in the output of the terminal:
     - `http://127.0.0.1:8888/lab?token=75bc9868c98805cd5a823a502eaad20d6a238bcdc1cefb95`
     - Your will have a different token.
-    - Open the link in your browser and you will see JupyerLab.
+    - Open the link in your browser and you will see JupyerLab:
+    -  ![screenshot of jupyterlab](./jupyterlab.png)
+    -  Double click the `work` icon at the left pane and you will see the files and directories in your host.
